@@ -1,0 +1,20 @@
+.log {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1rem;
+  
+    &__entry {
+      background-color: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      flex: 0 1 calc(50% - 1rem); /* Two cards per row */
+      box-sizing: border-box;
+    }
+  
+    &__title {
+      margin-top: 0;
+    }
+  }
+  
