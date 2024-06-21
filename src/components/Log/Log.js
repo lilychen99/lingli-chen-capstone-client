@@ -1,4 +1,9 @@
 import React from 'react';
+import ParisImage from '../../assets/images/paris.jpg';
+import NYCImage from '../../assets/images/nyc.jpg';
+import CapetownImage from '../../assets/images/capetown.jpg';
+import KyotoImage from '../../assets/images/kyoto.jpg';
+import SydneyImage from '../../assets/images/sydney.jpg';
 import './Log.scss';
 
 const exampleEntries = [
@@ -11,7 +16,7 @@ const exampleEntries = [
     walkability: 5,
     safety: 4,
     thingsToDo: 5,
-    photos: 'paris.jpg'
+    photos: ParisImage
   },
   {
     location: 'Kyoto, Japan',
@@ -22,7 +27,7 @@ const exampleEntries = [
     walkability: 5,
     safety: 5,
     thingsToDo: 5,
-    photos: 'kyoto.jpg'
+    photos: KyotoImage
   },
   {
     location: 'New York City, USA',
@@ -33,7 +38,7 @@ const exampleEntries = [
     walkability: 5,
     safety: 3,
     thingsToDo: 5,
-    photos: 'nyc.jpg'
+    photos: NYCImage
   },
   {
     location: 'Sydney, Australia',
@@ -44,7 +49,7 @@ const exampleEntries = [
     walkability: 4,
     safety: 5,
     thingsToDo: 4,
-    photos: 'sydney.jpg'
+    photos: SydneyImage
   },
   {
     location: 'Cape Town, South Africa',
@@ -55,7 +60,7 @@ const exampleEntries = [
     walkability: 3,
     safety: 4,
     thingsToDo: 5,
-    photos: 'capetown.jpg'
+    photos: CapetownImage
   }
 ];
 
